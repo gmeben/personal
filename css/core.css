@@ -14,7 +14,6 @@ body {
     background:#d8d8d8;
     font-size:1.6rem;
 }
-
 a {
     color:green;
     text-decoration:none;
@@ -42,13 +41,11 @@ a:focus {
     max-width:96rem;
     padding:4rem;
 }
-
 .flex-center {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .main-header {
     background:#e7e7e7;
     border-bottom: 0.4rem double #aaa;
@@ -60,7 +57,6 @@ a:focus {
     padding-bottom: 0;
     align-items: center;
 }
-
 .main-body {
     border-bottom: 0.4rem double #aaa;
     font-size:2.5rem;
@@ -68,7 +64,6 @@ a:focus {
 .main-body img {
     max-width:100%;
 }
-
 .main-footer {
     background:#333;
     color:#d8d8d8;
@@ -85,6 +80,7 @@ a:focus {
     justify-content: space-between;
 }
 
+/* Buttons */
 .button--profile {
     background-image: url('../2668987.jpg');
     background-repeat: no-repeat;
@@ -156,8 +152,6 @@ a:focus {
 .subtitle-list {
     font-size:1.5rem;
 }
-
-/* Byline */
 .byline {
     margin-bottom:6rem;
 }
@@ -176,10 +170,10 @@ a:focus {
     padding:1.2rem 3rem 1.2rem 0;
 }
 
+/* Generic elements */
 .a-block {
     display:block;
 }
-
 .scene {
     background-color: #79c7ff;
     background-image: linear-gradient(135deg, #79c7ff 0%,#60abf8 44%,#485f7f 100%);
@@ -198,8 +192,6 @@ a:focus {
     line-height: 0.8;
     padding: 1rem;
 }
-
-
 .land {
     background-color: #3e7a3e;
     background-image: linear-gradient(135deg, #3e7a3e 0%,#5e8856 44%,#50654f 100%);
@@ -218,7 +210,6 @@ a:focus {
     /* Make it a pit! */
     /* box-shadow: 0 7px 0 #4e4e3d inset; */
 }
-
 .beach {
     background-color: #d2b48c;
     background-image: linear-gradient(135deg, #d2b48c 0%,#c1ab87 44%,#90836d 100%);
@@ -230,7 +221,6 @@ a:focus {
     top: 57%;
     z-index: 2;
 }
-
 .sea {
     background-color: #47a5f5;
     background-image: linear-gradient(45deg, #47a5f5 0%,#60abf8 44%,#2e67ad 100%);
