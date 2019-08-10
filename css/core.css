@@ -196,7 +196,7 @@ a:focus {
     background-color:#6a5c8e;
 }
 .sky {
-    animation: moveclouds 5s infinite linear;
+    animation: moveclouds 15s infinite linear;
     color: #f4f4f4;
     display: flex;
     font-size: 6rem;
@@ -213,7 +213,7 @@ a:focus {
 }
 @keyframes moveclouds {
     0% {
-        left: -145px;
+        left: -14.8rem;
     },
     100% {
         left: 0px;
