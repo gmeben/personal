@@ -47,7 +47,7 @@ a:focus {
     flex-direction: column;
 }
 .main-header {
-    background:#e7e7e7;
+    background:#f4f4f4;
     border-bottom: 0.4rem double #aaa;
     padding: 2rem 0;
 }
@@ -78,6 +78,9 @@ a:focus {
 .main-footer .contain {
     display: flex;
     justify-content: space-between;
+}
+.figure {
+    width:100%;
 }
 
 /* Buttons */
@@ -155,6 +158,9 @@ a:focus {
 .byline {
     margin-bottom:6rem;
 }
+.figcaption {
+    padding:2rem 40px;
+}
 
 /* Lists */
 .list {
@@ -175,31 +181,56 @@ a:focus {
     display:block;
 }
 .scene {
-    background-color: #79c7ff;
-    background-image: linear-gradient(135deg, #79c7ff 0%,#60abf8 44%,#485f7f 100%);
     border-radius: 0.8rem;
-    height: 20rem;
+    height: 30rem;
     overflow: hidden;
     position: relative;
     width: 100%;
     z-index: 1;
 }
+.scene-blue {
+    background-color: #79c7ff;
+    background-image: linear-gradient(135deg, #79c7ff 0%,#60abf8 44%,#485f7f 100%);
+}
+.scene-purple {
+    background-color:#6a5c8e;
+}
 .sky {
-    color: #fff;
+    animation: moveclouds 5s infinite linear;
+    color: #f4f4f4;
     display: flex;
     font-size: 6rem;
-    justify-content: space-around;
-    line-height: 0.8;
-    padding: 1rem;
+    flex-flow: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    width: 1100px;
+    left: 0;
+}
+.sky * {
+    width:60px;
+    text-align:center;
+}
+@keyframes moveclouds {
+    0% {
+        left: -145px;
+    },
+    100% {
+        left: 0px;
+    }
 }
 .land {
+    align-items:flex-end;
     background-color: #3e7a3e;
     background-image: linear-gradient(135deg, #3e7a3e 0%,#5e8856 44%,#50654f 100%);
     border-color: #d2b48c;
     border-radius: 50%;
     bottom: 12%;
+    display:flex;
     color: #fff07c;
     font-style: normal;
+    font-size:10rem;
+    justify-content:center;
     left: 20%;
     line-height: 2;
     position: absolute;
@@ -231,6 +262,35 @@ a:focus {
     top: 61.8%;
     z-index: 1;
 }
+.webdev {
+    align-items:center;
+    display:flex;
+    flex-grow:1;
+    font-size:10rem;
+    height:100%;
+    justify-content:center;
+}
+.desk {
+    position:absolute;
+    height:0;
+    left:15%;
+    right:15%;
+    border-bottom:100px solid #1c1c1c;
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+    top:16rem;
+    z-index:-1;
+}
+.desk:after {
+    content:"";
+    height:4rem;
+    display:block;
+    background-color:#000;
+    position:absolute;
+    top:10rem;
+    left:-4rem;
+    right:-4rem;
+}
 
 @media (max-width: 36rem) {
     .button--profile:active {
@@ -250,4 +310,3 @@ a:focus {
         text-align:center;
     }
 }
-
