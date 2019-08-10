@@ -205,7 +205,7 @@ a:focus {
     left: 0;
     position: absolute;
     top: 2rem;
-    width: 110rem;
+    width: 1100px;
 }
 .sky * {
     width:6rem;
@@ -213,7 +213,7 @@ a:focus {
 }
 @keyframes moveclouds {
     0% {
-        left: -14.8rem;
+        left: -148px;
     },
     100% {
         left: 0;
