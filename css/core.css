@@ -301,10 +301,8 @@ a:focus {
 }
 
 @media (max-width: 36rem) {
-    .button--profile:active {
-    }
-    .main-header .contain {
-        flex-direction: column;
+    .contain {
+        padding:2rem;
     }
     .intro {
         padding: 1rem 0 0;
@@ -316,5 +314,8 @@ a:focus {
     .title,
     .byline {
         text-align:center;
+    }
+    .main-header .contain {
+        flex-direction: column;
     }
 }
