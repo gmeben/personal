@@ -201,6 +201,7 @@ a:focus {
 }
 .scene-purple {
     background-color:#6a5c8e;
+    background-image: radial-gradient(ellipse farthest-corner at center bottom, rgb(211, 176, 249) 0%, rgb(106, 92, 142) 100%);
 }
 .sky {
     animation: moveclouds 15s infinite linear;
