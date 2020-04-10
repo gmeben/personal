@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background:#d8f0ff;
+    background:#fff;
     font-size:1.6rem;
 }
 a {
@@ -188,7 +188,9 @@ a:focus {
     padding:10rem 0;
 }
 .scene {
+    border: 2px solid #53565a;
     border-radius: 0.8rem;
+    box-shadow: 0 0.5rem 0 0 #c8c8c8;
     height: 30rem;
     overflow: hidden;
     position: relative;
