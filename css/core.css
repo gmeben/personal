@@ -188,7 +188,7 @@ a:focus {
     padding:10rem 0;
 }
 .scene {
-    border: 2px solid #53565a;
+    border: 0.4rem solid #53565a;
     border-radius: 0.8rem;
     box-shadow: 0 0.5rem 0 0 #c8c8c8;
     height: 30rem;
@@ -200,10 +200,12 @@ a:focus {
 .scene-blue {
     background-color: #55b8ff;
     background-image: linear-gradient(135deg, #55b8ff 0%,#76d2ff 44%,#00d0ff 100%);
+    border-color: #217d93;
 }
 .scene-purple {
     background-color:#6a5c8e;
     background-image: radial-gradient(ellipse farthest-corner at center bottom, rgb(211, 176, 249) 0%, rgb(106, 92, 142) 100%);
+    border-color: #482548;
 }
 .sky {
     animation: moveclouds 15s infinite linear;
