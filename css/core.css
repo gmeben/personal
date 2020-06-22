@@ -50,7 +50,7 @@ a:focus {
 .main-header {
     background:#f4f4f4;
     border-bottom: 0.4rem double #aaa;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 .main-header .contain {
     display: flex;
@@ -307,18 +307,21 @@ a:focus {
 
 @media (max-width: 36rem) {
     .contain {
-        padding:2rem;
+        padding: 2rem;
     }
     .intro {
         padding: 1rem 0 0;
-        text-align:center;
+        text-align: center;
     }
     .nav-link {
-        padding:2rem 0;
+        padding: 2rem 0;
     }
     .title,
     .byline {
-        text-align:center;
+        text-align: center;
+    }
+    .meain-header {
+        padding: 2rem;
     }
     .main-header .contain {
         flex-direction: column;
