@@ -152,6 +152,7 @@ a:focus {
 
 /* Subtitles */
 .subtitle-intro {
+    margin:0 0.5rem;
 }
 .subtitle-list {
     font-size:1.5rem;
