@@ -76,6 +76,9 @@ a:focus {
     color:#83af83;
     text-shadow: 0 0 2rem #fff;
 }
+.main-footer li {
+    margin-bottom: 0.6rem;
+}
 .main-footer .contain {
     display: flex;
     justify-content: space-between;
