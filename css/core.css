@@ -28,6 +28,10 @@ a:focus {
     outline: 0;
 }
 
+.main-body section {
+    padding: 3rem 0 8rem;
+}
+
 /* Text utilities */
 .text-center {
     text-align: center;
@@ -188,9 +192,6 @@ a:focus {
 .a-block {
     display: block;
 }
-.section-tall {
-    padding: 10rem 0;
-}
 .scene {
     border: 0.4rem solid #53565a;
     border-radius: 0.8rem;
@@ -308,8 +309,18 @@ a:focus {
     left: -4rem;
     right: -4rem;
 }
+.list-skills {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-position: inside;
+    list-style-type: square;
+}
+.list-skills li {
+    box-sizing: border-box;
+}
 
-@media (max-width: 36rem) {
+@media (max-width: 42rem) {
     .contain {
         padding: 2rem;
     }
@@ -329,5 +340,8 @@ a:focus {
     }
     .main-header .contain {
         flex-direction: column;
+    }
+    .list-skills {
+        grid-template-columns: 50% 50%;
     }
 }
