@@ -330,6 +330,7 @@ a:focus {
 }
 .list-skills li {
     box-sizing: border-box;
+    text-indent: -2.2rem;
 }
 
 @media (max-width: 45rem) {
@@ -360,6 +361,11 @@ a:focus {
         flex-direction: column;
     }
     .list-skills {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 28rem) {
+    .list-skills {
+        grid-template-columns: 1fr;
     }
 }
