@@ -301,13 +301,13 @@ a:focus {
     padding-top: 10rem;
 }
 .desk {
-    position: absolute;
-    height: 0;
-    left: 15%;
-    right: 15%;
     border-bottom: 10rem solid #d79d80;
     border-left: 4rem solid transparent;
     border-right: 4rem solid transparent;
+    height: 0;
+    left: 15%;
+    position: absolute;
+    right: 15%;
     top: 16rem;
     z-index: -1;
 }
@@ -330,6 +330,7 @@ a:focus {
 }
 .list-skills li {
     box-sizing: border-box;
+    padding-right: 2.2rem;
     text-indent: -2.2rem;
 }
 
