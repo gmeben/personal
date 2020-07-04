@@ -368,7 +368,7 @@ a:focus {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 28rem) {
+@media (max-width: 36rem) {
     .list-skills {
         grid-template-columns: 1fr;
     }
