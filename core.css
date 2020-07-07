@@ -90,6 +90,12 @@ a:focus {
 .figure {
     width: 100%;
 }
+.see-more {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+}
 
 /* Buttons */
 .button {
@@ -100,7 +106,6 @@ a:focus {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    margin: 1rem 0;
     padding: 4rem 6rem;
     outline: 0;
     overflow: hidden;
@@ -125,7 +130,6 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5rem;
-    margin: 0;
     padding: 0;
     width: 5rem;
 }
@@ -376,6 +380,7 @@ a:focus {
     .main-header .contain {
         flex-direction: column;
     }
+    .see-more,
     .list-skills {
         grid-template-columns: 1fr;
     }
