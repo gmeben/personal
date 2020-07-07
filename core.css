@@ -92,33 +92,41 @@ a:focus {
 }
 
 /* Buttons */
-.button--profile {
-    background-image: url('2668987.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 10%;
+.button {
+    background: #53565a;
+    border-radius: 0.5rem;
     border: none;
     box-shadow: 0 0.4rem 0rem rgb(61, 54, 24);
+    color: #fff;
     cursor: pointer;
-    height: 5rem;
+    display: inline-block;
     margin: 0;
+    padding: 4rem 6rem;
     outline: 0;
     overflow: hidden;
     transition: 0.2s box-shadow, 0.2s margin;
-    width: 5rem;
 }
-.button--profile:focus {
+.button:focus {
     outline: 0;
 }
-.button--profile:hover {
+.button:hover {
     box-shadow: 0 0.4rem 0rem rgb(61, 54, 24), 0 0 4rem rgba(255,255,255,0.4) inset;
+    text-decoration:none;
     outline: 0;
 }
-.button--profile:active {
+.button:active {
     box-shadow: none;
     margin-top: 0.4rem;
     margin-bottom: -0.4rem;
     outline: 0;
+}
+.button--profile {
+    background-image: url('2668987.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 5rem;
+    padding: 0;
+    width: 5rem;
 }
 
 /* Introductory text in the header */
