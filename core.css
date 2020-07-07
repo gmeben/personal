@@ -100,7 +100,7 @@ a:focus {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    margin: 0;
+    margin: 1rem 0;
     padding: 4rem 6rem;
     outline: 0;
     overflow: hidden;
@@ -125,6 +125,7 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5rem;
+    margin: 0;
     padding: 0;
     width: 5rem;
 }
