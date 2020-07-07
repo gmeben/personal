@@ -337,6 +337,11 @@ a:focus {
     left: -4rem;
     right: -4rem;
 }
+.link--project {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
 .list-skills {
     display: grid;
     grid-gap: 1rem;
