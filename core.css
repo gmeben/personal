@@ -357,6 +357,7 @@ a:focus {
 }
 .desc--project {
     font-size: 2rem;
+    margin-top: 0.5rem;
 }
 
 @media (max-width: 45rem) {
