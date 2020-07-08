@@ -215,6 +215,19 @@ a:focus {
     display: block;
     font-size: 0;
 }
+.list-skills {
+    column-gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-position: outside;
+    list-style-type: square;
+    padding-left: 6rem;
+    row-gap: 1.2rem;
+}
+.list-skills li {
+    align-self: center;
+    box-sizing: border-box;
+}
 
 /* Generic elements */
 .a-block {
@@ -341,18 +354,6 @@ a:focus {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
-}
-.list-skills {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-position: inside;
-    list-style-type: square;
-}
-.list-skills li {
-    box-sizing: border-box;
-    padding-right: 2.2rem;
-    text-indent: -2.2rem;
 }
 
 @media (max-width: 45rem) {
