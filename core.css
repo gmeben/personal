@@ -99,14 +99,15 @@ a:focus {
 
 /* Buttons */
 .button {
-    background: #53565a;
+    background-color: #53565a;
     border-radius: 0.5rem;
     border: none;
-    box-shadow: 0 0.4rem 0rem rgb(61, 54, 24);
+    box-shadow: 0 0.4rem 0rem #1a1606;
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 4rem 6rem;
+    font-size: 2rem;
+    padding: 0.3rem 2rem;
     outline: 0;
     overflow: hidden;
     transition: 0.2s box-shadow, 0.2s margin;
@@ -124,6 +125,18 @@ a:focus {
     margin-top: 0.4rem;
     margin-bottom: -0.4rem;
     outline: 0;
+}
+.button--blue {
+    background-color: #21849f;
+    box-shadow: 0 0.4rem 0 #122451; 
+}
+.button--green {
+    background-color: #51793a;
+    box-shadow: 0 0.4rem 0 #0a1505;
+}
+.button--huge {
+    font-size: 2.5rem;
+    padding: 4rem 6rem;
 }
 .button--profile {
     background-image: url('2668987.jpg');
