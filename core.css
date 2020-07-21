@@ -243,9 +243,6 @@ a:focus {
 }
 
 /* Generic elements */
-.a-block {
-    display: block;
-}
 .scene {
     border: 0.4rem solid #53565a;
     border-radius: 0.8rem;
