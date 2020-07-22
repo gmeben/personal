@@ -269,7 +269,7 @@ a:focus {
     color: #f4f4f4;
     display: flex;
     flex-flow: row;
-    font-size: 6rem;
+    font-size: 13rem;
     justify-content: space-between;
     left: 0;
     position: absolute;
@@ -283,7 +283,7 @@ a:focus {
 @keyframes moveclouds {
     0% {
         left: -148px;
-    },
+    }
     100% {
         left: 0;
     }
