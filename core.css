@@ -110,7 +110,7 @@ a:focus {
     padding: 0.3rem 2rem;
     outline: 0;
     overflow: hidden;
-    text-shadow: 0 1px #000;
+    text-shadow: 0 0.2rem 0.2rem #000;
     transition: 0.2s box-shadow, 0.2s margin;
 }
 .button:focus {
@@ -132,9 +132,14 @@ a:focus {
     box-shadow: 0 0.4rem 0 #122451; 
 }
 .button--green {
-    background-color: #5c8e3f;
+    background-color: #518434;
     box-shadow: 0 0.4rem 0 #0a1505;
 }
+.button--green:focus,
+.button--blue:focus {
+    text-shadow: inherit;
+}
+
 .button--huge {
     font-size: 2.5rem;
     padding: 4rem 6rem;
