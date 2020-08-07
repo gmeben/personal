@@ -163,7 +163,7 @@ a:focus {
     margin: 3rem 0 6rem;
 }
 .title-intro {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 400;
     margin: 0;
 }
@@ -190,7 +190,8 @@ a:focus {
 
 /* Subtitles */
 .subtitle-intro {
-    margin: 0.5rem 0;
+    margin: 0;
+    padding-left: 0.3em;
 }
 .subtitle-list {
     font-size: 1.5rem;
@@ -402,6 +403,9 @@ a:focus {
     .title,
     .byline {
         text-align: center;
+    }
+    .subtitle-intro {
+        padding: 0;
     }
     .main-header {
         padding: 2rem;
