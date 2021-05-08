@@ -315,6 +315,20 @@ a:focus {
     /* Make it a pit! */
     /* box-shadow: 0 0.7rem 0 #4e4e3d inset; */
 }
+.land:before {
+     background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0) 100%);
+     border-radius: 50%;
+     content: "";
+     display: block;
+     height: 120px;
+     left: 50%;
+     margin-top: -14px;
+     position: absolute;
+     top: 24%;
+     transform: scale(1.6, 0.4);
+     width: 120px;
+     z-index: -1;
+}
 .beach {
     background-color: #ffe8ca;
     background-image: linear-gradient(135deg, #ffe8ca 0%,#c1ab87 44%,#dbc195 100%);
