@@ -321,10 +321,10 @@ a:focus {
 .land > span:before {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0) 100%);
     border-radius: 50%;
+    bottom: -3px;
     content: "";
     display: block;
     height: 120px;
-    margin-bottom: 8px;
     position: absolute;
     transform: scale(1.6, 0.4);
     width: 120px;
