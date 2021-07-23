@@ -296,7 +296,7 @@ a:focus {
 .land {
     align-items: center;
     background-color: #33e133;
-    background-image: linear-gradient(135deg, #33e133 0%,#e2ff55 44%,#19a412 100%);
+    background-image: radial-gradient(ellipse at top, #e2ff55,#19a412 100%);
     border-color: #d2b48c;
     border-radius: 50%;
     bottom: 12%;
@@ -315,7 +315,7 @@ a:focus {
     /* Make it a pit! */
     /* box-shadow: 0 0.7rem 0 #4e4e3d inset; */
 }
-.land:before {
+.land > span:before {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0) 100%);
     border-radius: 50%;
     content: "";
@@ -332,7 +332,7 @@ a:focus {
 }
 .beach {
     background-color: #ffe8ca;
-    background-image: linear-gradient(135deg, #ffe8ca 0%,#c1ab87 44%,#dbc195 100%);
+    background-image: radial-gradient(ellipse farthest-corner, #ffc180 50%, #4a330a 100%);
     border-radius: 50%;
     bottom: 8%;
     left: 18%;
