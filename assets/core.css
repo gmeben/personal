@@ -300,10 +300,10 @@ a:focus {
     border-color: #d2b48c;
     border-radius: 50%;
     bottom: 12%;
-    display: flex;
     color: #fff07c;
-    font-style: normal;
+    display: flex;
     font-size: 10rem;
+    font-style: normal;
     justify-content: center;
     left: 20%;
     line-height: 2;
@@ -311,9 +311,12 @@ a:focus {
     right: 20%;
     top: 56%;
     z-index: 3;
-
-    /* Make it a pit! */
-    /* box-shadow: 0 0.7rem 0 #4e4e3d inset; */
+}
+.land > span {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    margin-top: -8rem;
 }
 .land > span:before {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0) 100%);
@@ -321,11 +324,8 @@ a:focus {
     content: "";
     display: block;
     height: 120px;
-    left: 50%;
-    margin-top: -30px;
-    margin-left: -60px;
+    margin-bottom: 8px;
     position: absolute;
-    top: 24%;
     transform: scale(1.6, 0.4);
     width: 120px;
     z-index: -1;
