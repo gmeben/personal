@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background: #fff;
+    background-color: #fff;
     font-size: 1.6rem;
 }
 a {
@@ -24,7 +24,7 @@ a:hover {
     text-decoration: underline;
 }
 a:focus {
-    text-shadow: 0 0 1rem #28a6ff;
+    text-shadow: 0 0 1.2rem #28a6ff;
     outline: 0;
 }
 
@@ -393,6 +393,33 @@ a:focus {
 .buttons--project {
     line-height: 1.5;
     margin: 0 0 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+        color: #fff;
+    }
+    a {
+        color: #72aa72;
+    }
+    a:focus {
+        text-shadow: 0 0 0.4rem #000, 0 0 1.5rem #fff;
+        outline: 0;
+    }
+    .button {
+        box-shadow: 0 0.4rem 0rem #3c3c3c;
+    }
+    .main-header {
+        background: #242424;
+        border-color: #000;
+    }
+    .title-intro-link {
+        color:#959595;
+    }
+    .scene {
+        box-shadow: 0 0.5rem 0 0 #393939;
+    }
 }
 
 @media (max-width: 45rem) {
