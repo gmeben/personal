@@ -429,6 +429,16 @@ a:focus {
     .list-skills {
         grid-template-columns: 1fr 1fr;
     }
+    .main-footer ul {
+        margin-top: 2rem;
+    }
+    .main-footer li {
+        margin-bottom: 1.8rem;
+    }
+    .main-footer li a {
+        padding: 0.2rem;
+        display: inline-block;
+    }
 }
 
 @media (max-width: 42rem) {
