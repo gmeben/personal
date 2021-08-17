@@ -24,8 +24,10 @@ a:hover {
     text-decoration: underline;
 }
 a:focus {
+    border-radius: 0.1rem;
+    outline-offset: 0.2rem;
+    outline: 0.3rem solid #000;
     text-shadow: 0 0 1.2rem #28a6ff;
-    outline: 0;
 }
 .main-body section {
     padding: 3rem 0 8rem;
@@ -87,8 +89,11 @@ a:focus {
     color: #fff;
 }
 .main-footer a:focus {
+    border-radius: 0.1rem;
     color: #83af83;
-    text-shadow: 0 0 2rem #fff;
+    outline-offset: 0.2rem;
+    outline: 0.2rem solid #fff;
+    text-shadow: 0 0 0.6rem #000, 0 0 2.5rem #fff;
 }
 .main-footer li {
     margin-bottom: 0.6rem;
@@ -123,18 +128,17 @@ a:focus {
     text-shadow: 0 0.1rem 0.2rem #000;
     transition: 0.2s box-shadow, 0.2s margin;
 }
-.button:focus {
-    outline: 0;
-}
 .button:hover {
     box-shadow: 0 0.4rem 0rem rgb(61, 54, 24), 0 0 4rem rgba(255,255,255,0.4) inset;
     text-decoration:none;
-    outline: 0;
 }
 .button:active {
     box-shadow: none;
     margin-top: 0.4rem;
     margin-bottom: -0.4rem;
+}
+.button:focus {
+    box-shadow: 0 0 0 0.3rem #fff, 0 0 0 0.5rem #000;
     outline: 0;
 }
 .button--blue {
@@ -201,7 +205,7 @@ a:focus {
 /* Subtitles */
 .subtitle-intro {
     margin: 0;
-    padding-left: 0.3em;
+    padding: 0.3em 0 0 0.3rem;
 }
 .subtitle-list {
     font-size: 1.5rem;
@@ -236,13 +240,6 @@ a:focus {
 }
 .list-projects figure {
     margin: 0;
-}
-.list-projects .scene {
-    min-height: auto;
-}
-.list-projects .scene a {
-    display: block;
-    font-size: 0;
 }
 .list-skills {
     column-gap: 4rem;
@@ -396,6 +393,16 @@ a:focus {
     font-size: 2rem;
     font-weight: 600;
 }
+.link--thumbnail {
+    border-radius: 0.8rem;
+    border: 0.4rem solid #53565a;
+    box-shadow: 0 0.5rem 0 0 #c8c8c8;
+    display: block;
+    font-size: 0;
+}
+.link--thumbnail:focus {
+    box-shadow: 0 0 2rem #28a6ff;
+}
 .desc--project {
     font-size: 2rem;
     margin: 1rem 0;
@@ -414,11 +421,21 @@ a:focus {
         color: #72aa72;
     }
     a:focus {
-        text-shadow: 0 0 0.4rem #000, 0 0 1.5rem #fff;
+        border-radius: 0.1rem;
+        outline-offset: 0.2rem;
+        outline: 0.2rem solid #fff;
+        text-shadow: 0 0 0.6rem #000, 0 0 2.5rem #fff;
+    }
+    .link--thumbnail:focus {
+        box-shadow: 0 0 0 0.4rem #000, 0 0 0 0.6rem #fff;
         outline: 0;
     }
     .button {
         box-shadow: 0 0.4rem 0rem #3c3c3c;
+    }
+    .button:focus {
+        box-shadow: 0 0 0 0.4rem #000, 0 0 0 0.6rem #fff;
+        outline: 0;
     }
     .main-header {
         background: #242424;
@@ -427,6 +444,7 @@ a:focus {
     .title-intro-link {
         color:#959595;
     }
+    .link--thumbnail,
     .scene {
         box-shadow: 0 0.5rem 0 0 #393939;
     }
