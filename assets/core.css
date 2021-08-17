@@ -378,12 +378,12 @@ a:focus {
     left: 15%;
     position: absolute;
     right: 15%;
-    top: 16rem;
+    top: 13rem;
     z-index: -1;
 }
 .desk:after {
     content: "";
-    height: 4rem;
+    height: 7rem;
     display: block;
     background-color: #000;
     position: absolute;
