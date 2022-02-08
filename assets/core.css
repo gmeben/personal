@@ -284,12 +284,21 @@ a:focus {
     justify-content: space-between;
     left: 0;
     position: absolute;
-    top: 4rem;
+    top: 10rem;
     width: 1100px;
 }
 .sky * {
     width: 6rem;
     text-align: center;
+}
+.sky *:before {
+  content: "";
+  display: inline-block;
+  background-color: #fff;
+  width: 8rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 4rem -4rem 0 0 #fff, -5.8rem -0.6rem 0 -0.2rem #fff, -9.4rem 1.7rem 0 0.6rem #fff;
 }
 @keyframes moveclouds {
     0% {
