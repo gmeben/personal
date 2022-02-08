@@ -278,7 +278,6 @@ a:focus {
 }
 .sky {
     animation: moveclouds 15s infinite linear;
-    color: #f4f4f4;
     display: flex;
     flex-flow: row;
     font-size: 13rem;
