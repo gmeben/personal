@@ -13,7 +13,7 @@ html {
 }
 body {
     background-color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 a {
     color: green;
@@ -76,7 +76,6 @@ a:focus {
 }
 .main-body {
     border-bottom: 0.4rem double #aaa;
-    font-size: 2.5rem;
 }
 .main-body img {
     max-width: 100%;
