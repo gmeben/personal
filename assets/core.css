@@ -309,12 +309,11 @@ a:focus {
 }
 .land {
     align-items: center;
-    background-color: #33e133;
+    background-color: #19a412;
     background-image: radial-gradient(ellipse at top, #e2ff55,#19a412 100%);
     border-color: #d2b48c;
     border-radius: 50%;
     bottom: 12%;
-    color: #fff07c;
     display: flex;
     font-size: 10rem;
     font-style: normal;
